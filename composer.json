@@ -1,0 +1,19 @@
+{
+    "name": "nitin/calculator",
+    "description": "simple calculator",
+    "type": "library",
+    "authors": [
+        {
+            "name": "nitin wagh",
+            "email": "nitinwagh2293@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "app/library"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "7"
+    }
+}
