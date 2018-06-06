@@ -13,8 +13,6 @@ if (!isset($argv[1])) {
 
 $data = $argv[2] ?? '';
 
-print_r($data);
-
 try {
     $operator = strtolower($argv[1]);
     switch ($operator) {
